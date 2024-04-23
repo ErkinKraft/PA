@@ -9,7 +9,7 @@
 
 ## Использование
 Укажите имя файла Python и опции, такие как –onefile (для создания одного исполняемого файла), –noconsole (для скрытия консоли) и –icon (для указания иконки приложения).
-
+```pa "Имя файла" "Тут флаги если нужны"```
 После запуска скрипта он анализирует исходный файл Python, определяет необходимые библиотеки, генерирует команду PyInstaller и начинает процесс упаковки приложения.
 
 [EN]
@@ -22,5 +22,5 @@ This script is a program for quickly using PyInstaller - a tool for packaging Py
 
 ## Usage
 Specify the Python file name and options such as –onefile (to create a single executable file), –noconsole (to hide the console), and –icon (to specify the application icon).
-
+``pa "File name" "Flags here if needed"``
 After running the script, it analyzes the Python source file, determines the required libraries, generates the PyInstaller command, and starts the application packaging process.
