@@ -1,0 +1,1 @@
+pyinstaller PA.py --onefile --hidden-import argarse --hidden-import ast --hidden-import os
